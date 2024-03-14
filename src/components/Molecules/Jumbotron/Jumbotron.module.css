@@ -5,3 +5,21 @@
   display: grid;
   z-index: 2;
 }
+
+.jumbotron_image {
+  position: relative;
+  overflow: hidden;
+  grid-area: 1 / 1;
+  max-height: 100vh;
+}
+
+.jumbotron_image:before {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, .4), rgba(0, 0, 0, .4));
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
