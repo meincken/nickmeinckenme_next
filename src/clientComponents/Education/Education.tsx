@@ -7,7 +7,7 @@ export function EducationList() {
       {social.map((edu, x) => {
         return (
           <article key={x}>
-            <h3>{edu.course}</h3>
+            <h3 className='text-xl font-bold'>{edu.course}</h3>
             <p>
               {edu.site}
               <span> · </span>

@@ -1,7 +1,10 @@
+import { SkillsList } from "@/clientComponents";
+
 export const Skills = () => {
   return (
-    <div is="skills">
+    <div id="skills" className="grid_container mx-auto">
       <h2>Skills</h2>
+      <SkillsList />
     </div>
   );
 }
