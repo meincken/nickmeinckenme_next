@@ -1,4 +1,5 @@
 import data from '@/data/navigation.json'
+import Link from 'next/link'
 
 export function Nav() {
   return (
@@ -6,9 +7,9 @@ export function Nav() {
       {data.map((navItem, x) => {
         return (
           <li key={x}>
-            <a className='block m-5' href={`#${navItem.item.toLowerCase()}`}>
+            <Link className='block m-5' href={`#${navItem.item.toLowerCase()}`}>
               {navItem.item}
-            </a>
+            </Link>
           </li>
         )
       })}

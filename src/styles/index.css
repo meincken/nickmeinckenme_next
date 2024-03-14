@@ -64,3 +64,18 @@ h6 small {
 svg {
   fill: currentColor;
 }
+
+.grid_container {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  max-width: 1040px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.btn {
+  @apply flex items-center justify-center rounded-lg py-2 px-4 bg-[#a9cc17] text-white  text-xl text-center mb-4
+}
