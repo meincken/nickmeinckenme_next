@@ -75,7 +75,7 @@ svg {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 1040px;
-  @apply py-5
+  @apply py-5 px-5
 }
 
 @media (min-width: 768px) {
@@ -121,7 +121,7 @@ footer span:not(:last-child):after {
 
 @media print {
   html {
-    @apply text-[10px] text-black
+    @apply text-[10px] text-black font-normal
   }
 
   p,

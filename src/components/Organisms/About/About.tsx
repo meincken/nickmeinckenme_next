@@ -12,7 +12,7 @@ export const About = () => {
           alt="Nick Meincken"
           placeholder="blur"
           quality={100}
-          className='rounded-full'
+          className='rounded-full mx-auto'
         />
         <div className="intro">
           <h2 className='text-left'>About Me</h2>
@@ -28,8 +28,8 @@ export const About = () => {
               <a href="mailto:nick@meincken.com">nick@meincken.com</a>
               <div>
                 <Link className='btn' href={`resume`}>Online Resume</Link>
-                <Link className='btn' href={`#`}>Download PDF</Link>
-                <Link className='btn' href={`#`}>Download DocX</Link>
+                <Link className='btn' href={`./NickMeinckenResume.pdf`}>Download PDF</Link>
+                <Link className='btn' href={`./NickMeinckenResume.docx`}>Download DocX</Link>
               </div>
             </div>
           </div>
