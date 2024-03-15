@@ -2,8 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --brand: #a9cc17;
+  --dark: #e1e1e1;
+  --light: #1e1e1e;
+
+}
+
 a {
-  @apply text-[#a9cc17]
+  @apply text-[color:var(--brand)]
 }
 
 h1 {
@@ -90,4 +97,30 @@ svg {
 
 footer span:not(:last-child):after {
   content: ", "
+}
+
+@media print {
+  html {
+    font-size: 11px;
+  }
+
+  .resume {
+    @apply max-w-full
+  }
+
+  .resume-grid .resume-aside {
+    @apply col-span-4
+  }
+
+  .resume-grid .resume-section {
+    @apply col-span-8
+  }
+
+  aside h3 {
+    @apply font-normal text-xs
+  }
+
+  .break {
+    page-break-after: always
+  }
 }

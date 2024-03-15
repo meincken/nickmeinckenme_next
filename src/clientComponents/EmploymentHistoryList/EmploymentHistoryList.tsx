@@ -7,7 +7,7 @@ export function EmploymentHistoryList() {
       {employment.map((role, x) => {
         return (
           <section key={x} className='mb-4'>
-            <header>
+            <header className='flex justify-between'>
               <h3 className='text-xl font-bold'>{role.title}</h3>
               <p>
                 <strong>{role.jobTitle} </strong>
