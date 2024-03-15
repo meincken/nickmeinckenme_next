@@ -1,0 +1,92 @@
+[
+  {
+    "section": "Languages",
+    "skills": [
+      {
+        "skilltitle": "Semantic HTML",
+        "length": "20",
+        "value": "100",
+        "title": "",
+        "pack": ""
+      },
+      {
+        "skilltitle": "CSS",
+        "length": "20",
+        "value": "100",
+        "title": "",
+        "pack": ""
+      },
+      {
+        "skilltitle": "Vanilla JS/jQuery",
+        "length": "15",
+        "value": "80",
+        "title": "",
+        "pack": ""
+      },
+      {
+        "skilltitle": "SCSS",
+        "length": "8",
+        "value": "90",
+        "title": "",
+        "pack": ""
+      },
+      {
+        "skilltitle": "PostCSS",
+        "length": "3",
+        "value": "90",
+        "title": "",
+        "pack": ""
+      }
+    ]
+  },
+  {
+    "section": "Framework/Libraries",
+    "skills": [
+      {
+        "skilltitle": "React/NextJS/Gatsby",
+        "length": "5",
+        "value": "80",
+        "title": "",
+        "pack": ""
+      }
+    ]
+  },
+  {
+    "section": "Tools",
+    "skills": [
+      {
+        "skilltitle": "Photoshop CC",
+        "length": "20",
+        "value": "100",
+        "title": "",
+        "pack": ""
+      },
+      {
+        "skilltitle": "VS Code",
+        "length": "1",
+        "value": "80",
+        "title": "",
+        "pack": ""
+      }
+    ]
+  },
+  {
+    "section": "Platforms",
+    "skills": [
+      {
+        "skilltitle": "Bundlers",
+        "length": "5",
+        "value": "90",
+        "title": "Bundlers",
+        "pack": "Webpack, Grunt, Gulp, Parcel"
+      },
+      {
+        "skilltitle": "CMS",
+        "length": "15",
+        "value": "80",
+        "title": "CMS's",
+        "pack": "AEM, Shopify, Wordpress, Jekyll"
+      }
+    ]
+  }
+]

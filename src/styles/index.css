@@ -6,7 +6,6 @@
   --brand: #a9cc17;
   --dark: #e1e1e1;
   --light: #1e1e1e;
-
 }
 
 a {
@@ -74,25 +73,46 @@ svg {
 
 .grid_container {
   display: grid;
-  grid-template-columns: 250px 1fr;
+  grid-template-columns: 1fr;
   max-width: 1040px;
   @apply py-5
+}
+
+@media (min-width: 768px) {
+  .grid_container {
+    grid-template-columns: 250px 1fr;
+  }
 }
 
 .grid_container h2 {
   @apply
     text-2xl
-    text-right
-    pr-5
+}
+
+@media (min-width: 768px) {
+  .grid_container h2 {
+    @apply text-right pr-5
+
+  }
 }
 
 .split {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 768px) {
+  .split {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 .btn {
-  @apply flex items-center justify-center rounded-lg py-2 px-4 bg-[#a9cc17] text-white  text-xl text-center mb-4
+  @apply flex items-center justify-center rounded-lg py-2 px-4 bg-[color:var(--brand)] text-white text-xl text-center mb-4
+}
+
+.btn.btn-group {
+  @apply inline-block
 }
 
 footer span:not(:last-child):after {
@@ -101,7 +121,13 @@ footer span:not(:last-child):after {
 
 @media print {
   html {
-    font-size: 11px;
+    @apply text-[10px] text-black
+  }
+
+  p,
+  .text-white,
+  .resume-print {
+    @apply text-black;
   }
 
   .resume {
@@ -122,5 +148,13 @@ footer span:not(:last-child):after {
 
   .break {
     page-break-after: always
+  }
+
+  .hidden-print-block {
+    @apply hidden
+  }
+
+  .progress {
+    @apply hidden
   }
 }

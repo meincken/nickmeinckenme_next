@@ -1,10 +1,10 @@
 'use client'
-import social from '@/data/skills.json'
+import skills from '@/data/skills.json'
 
 export function SkillsList() {
   return (
     <>
-      {social.map((skill, x) => {
+      {skills.map((skill, x) => {
         return (
           <article key={x}>
             <em>{skill.name}</em>

@@ -1,20 +1,29 @@
 import Head from "next/head"
+import Link from "next/link";
 import {
   EducationList,
   EmploymentHistoryListResume,
-  SkillsList
+  SkillsListResume
 } from '@/clientComponents'
 import {
-  Hcard
+  Hcard,
 } from '@/components/Atoms'
 
 export default function Resume() {
+  function handlePrint() {
+    window.print()
+  }
+
   return (
     <>
       <Head>
         <title>Nick Meincken Resume</title>
       </Head>
-      <div className="bg-[#1e1e1e] text-[#e1e1e1]">
+      <div className="bg-[#1e1e1e] text-[#e1e1e1] resume-print">
+        <header className="flex justify-center content-between hidden-print-block">
+          <Link className='btn btn-group m-2' href={`/`}>Home</Link>
+          <Link className='btn btn-group m-2' href={'#'} onClick={handlePrint}>Print</Link>
+        </header>
         <div className="container mx-auto resume">
           <header className="flex justify-between mb-5">
             <h2 className="text-[--brand] text-8xl">Nick Meincken <small className="block text-white">Front End Developer</small></h2>
@@ -30,7 +39,7 @@ export default function Resume() {
           </div>
           <section className="grid grid-cols-12 gap-4 resume-grid">
             <aside className="col-span-2 resume-aside">
-              <SkillsList />
+              <SkillsListResume />
               <h3>Qualifications</h3>
               <EducationList />
             </aside>
@@ -38,8 +47,11 @@ export default function Resume() {
               <EmploymentHistoryListResume />
             </section>
           </section>
-
         </div>
+        <footer className="resume-footer text-center hidden-print-block">
+          <p>References available upon request</p>
+          <p>{`\u00a92000 -  ${new Date().getFullYear()} Nick Meincken`}</p>
+        </footer>
       </div>
     </>
   );
