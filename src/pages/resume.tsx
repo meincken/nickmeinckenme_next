@@ -1,12 +1,15 @@
 import Head from "next/head"
+import {
+  EmploymentHistoryListResume
+} from '@/clientComponents'
 
-export default function CV() {
+export default function Resume() {
   return (
     <>
       <Head>
-        <title>Nick Meincken CV</title>
+        <title>Nick Meincken Resume</title>
       </Head>
-      <h2>Test</h2>
+      <EmploymentHistoryListResume />
     </>
   );
 }

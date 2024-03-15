@@ -1,6 +1,5 @@
 import { AppProps } from "next/app";
 import { Roboto } from 'next/font/google'
-import { Navigation, Footer } from "@/components/Molecules";
 import "../styles/index.css";
 
 const roboto = Roboto({
@@ -12,11 +11,9 @@ const roboto = Roboto({
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={`${roboto.variable} font-sans`}>
-      <Navigation />
       <main>
         <Component {...pageProps} />
       </main>
-      <Footer />
     </div>
   );
 }

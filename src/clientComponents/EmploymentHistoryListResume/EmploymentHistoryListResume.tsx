@@ -1,7 +1,7 @@
 'use client'
 import employment from '@/data/roles.json'
 
-export function EmploymentHistoryList() {
+export function EmploymentHistoryListResume() {
   return (
     <>
       {employment.map((role, x) => {
@@ -17,6 +17,14 @@ export function EmploymentHistoryList() {
             <article>
               <p>{role.description}</p>
             </article>
+            <footer>
+              <strong>Relevent skills: </strong>
+              {role.tags.map((tag, x) => {
+                return (
+                  <span key={x}>{tag}</span>
+                )
+              })}
+            </footer>
           </section>
         )
       })}

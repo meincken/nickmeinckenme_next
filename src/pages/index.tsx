@@ -1,5 +1,5 @@
 import Head from "next/head"
-import { Jumbotron } from "@/components/Molecules";
+import { Jumbotron, Navigation, Footer } from "@/components/Molecules";
 import {
   About,
   Education,
@@ -14,12 +14,17 @@ export default function Index() {
       <Head>
         <title>Nick Meincken</title>
       </Head>
+      <Navigation />
       <Jumbotron />
       <About />
       <Education />
+      <hr />
       <EmploymentHistory />
+      <hr />
       <Skills />
+      <hr />
       <Works />
+      <Footer />
     </>
   );
 }

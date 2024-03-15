@@ -15,7 +15,7 @@ export const About = () => {
           className='rounded-full'
         />
         <div className="intro">
-          <h2>About Me</h2>
+          <h2 className='text-left'>About Me</h2>
           <p>
             I am an experienced AEM Front End Developer. I specialise in creating clean semantic code to ensure fast load times. A champion of atomic design principles and where possible, develop style guides and pattern libraries to ensure consistent and rapid development when working as part of a team.
           </p>

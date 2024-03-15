@@ -1,4 +1,5 @@
 import { HeroImage } from "@/components/Atoms"
+import { Social } from "@/clientComponents"
 import style from './Jumbotron.module.css'
 
 export const Jumbotron = () => {
@@ -10,6 +11,7 @@ export const Jumbotron = () => {
           <small className="block">Front End Developer</small>
         </h1>
         <p>I&apos;m a London based Front End Developer. I build websites and component libraries for pretty much anything.</p>
+        <Social />
       </div>
       <div className={style.jumbotron_image}>
         <HeroImage />
