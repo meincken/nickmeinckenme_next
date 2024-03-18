@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import profilePic from '@/img/profilepic.webp'
-import { Button } from '@/components/Atoms'
 import Link from 'next/link'
 
 export const About = () => {

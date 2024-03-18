@@ -1,14 +1,25 @@
 'use client'
-import skills from '@/data/skills.json'
+import proskills from '@/data/proskill.json'
+import { Pie } from '@/components/Atoms'
+import './skillist.css'
 
 export function SkillsList() {
   return (
     <>
-      {skills.map((skill, x) => {
+      {proskills.map((skill, x) => {
         return (
           <article key={x}>
-            <em>{skill.name}</em>
-            <progress className='block w-full' id={skill.name} value={skill.level} max={`100`}>{skill.level}</progress>
+            <h4>{skill.section}</h4>
+            <div className="grid grid-cols-4 gap-1.5">
+              {skill.skills.map((sk, x) => {
+                return (
+                  <div key={x}>
+                    <Pie percentage={sk.value} colour="var(--brand)" title={sk.skilltitle} />
+                    {sk.title && <small>{sk.title} - {sk.pack}</small>}
+                  </div>
+                )
+              })}
+            </div>
           </article>
         )
       })}
