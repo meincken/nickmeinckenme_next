@@ -3,15 +3,15 @@
 }
 
 .works article {
-  @apply relative flex h-96 self-center justify-center items-center content-center bg-[#1e1e1e]
+  @apply relative flex h-96 self-center justify-center items-center content-center bg-[#1e1e1e] transition duration-300
 }
 
 .works article div {
-  @apply transition duration-300 w-full h-full justify-center bg-black/90 text-white mx-auto absolute top-0 cursor-pointer opacity-0
+  @apply transition duration-300 w-full h-full justify-center bg-black/90 text-white mx-auto absolute top-0 cursor-pointer opacity-0 flex flex-col
 }
 
 .works article:hover div {
-  @apply flex flex-col text-white opacity-100
+  @apply opacity-100
 }
 
 .works article div p {

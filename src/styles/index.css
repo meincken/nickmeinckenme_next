@@ -102,7 +102,7 @@ svg {
 }
 
 .intro h2 {
-  @apply text-left
+  @apply text-left float-none
 }
 
 .split {
