@@ -23,7 +23,7 @@ export const About = () => {
             I am as comfortable coding in raw HTML as I am using products such as React. I enjoy working as part of an Agile team and have worked on some of the countries largest e-commerce sites.
           </p>
           <div className="contact">
-            <h3>Contact</h3>
+            <h2>Contact</h2>
             <div className='split'>
               <a href="mailto:nick@meincken.com">nick@meincken.com</a>
               <div>

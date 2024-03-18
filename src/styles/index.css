@@ -85,8 +85,13 @@ svg {
 }
 
 .grid_container h2 {
-  @apply
-    text-2xl
+  @apply text-2xl font-normal float-right
+}
+
+.grid_container header h2:after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid var(--brand);
 }
 
 @media (min-width: 768px) {
@@ -94,6 +99,10 @@ svg {
     @apply text-right pr-5
 
   }
+}
+
+.intro h2 {
+  @apply text-left
 }
 
 .split {

@@ -6,12 +6,12 @@ import {
   SkillsListResume
 } from '@/clientComponents'
 import {
-  Hcard,
+  Hcard
 } from '@/components/Atoms'
 
 export default function Resume() {
   function handlePrint() {
-    window.print()
+    window.print();
   }
 
   return (
@@ -19,10 +19,10 @@ export default function Resume() {
       <Head>
         <title>Nick Meincken Resume</title>
       </Head>
-      <div className="bg-[#1e1e1e] text-[#e1e1e1] resume-print">
+      <div className="bg-[#1e1e1e] text-[#e1e1e1]">
         <header className="flex justify-center content-between hidden-print-block">
           <Link className='btn btn-group m-2' href={`/`}>Home</Link>
-          <Link className='btn btn-group m-2' href={'#'} onClick={handlePrint}>Print</Link>
+          <button className='btn btn-group m-2' onClick={handlePrint}>Print</button>
         </header>
         <div className="container mx-auto resume">
           <header className="flex justify-between mb-5">
