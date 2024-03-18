@@ -11,6 +11,13 @@
   overflow: hidden;
   grid-area: 1 / 1;
   max-height: 100vh;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .jumbotron_image {
+    display: grid;
+  }
 }
 
 .jumbotron_image:before {

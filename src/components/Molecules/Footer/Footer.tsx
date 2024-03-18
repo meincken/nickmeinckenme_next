@@ -5,7 +5,7 @@ export const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className="bg-black text-[#e1e1e1] text-center p-5">
+    <footer className="bg-black text-[#e1e1e1] text-center py-5">
       <p><small>&copy;{year} Nick Meincken all rights reserved</small></p>
       <Social />
     </footer>

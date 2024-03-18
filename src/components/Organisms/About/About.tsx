@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 export const About = () => {
   return (
-    <div id="about" className="bg-[#1e1e1e] text-[#e1e1e1]">
+    <div id="about" className="bg-[#1e1e1e] text-[#e1e1e1] px-5">
       <div className='container mx-auto py-10 grid_container'>
         <Image
           src={profilePic}
@@ -21,7 +21,7 @@ export const About = () => {
           <p>
             I am as comfortable coding in raw HTML as I am using products such as React. I enjoy working as part of an Agile team and have worked on some of the countries largest e-commerce sites.
           </p>
-          <div className="contact">
+          <div className="contact mt-5">
             <h2>Contact</h2>
             <div className='split'>
               <a href="mailto:nick@meincken.com">nick@meincken.com</a>

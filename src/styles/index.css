@@ -75,7 +75,8 @@ svg {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 1040px;
-  @apply py-5 px-5
+  overflow: hidden;
+  @apply py-5
 }
 
 @media (min-width: 768px) {
@@ -85,7 +86,7 @@ svg {
 }
 
 .grid_container h2 {
-  @apply text-2xl font-normal float-right
+  @apply text-2xl font-normal md:float-right mb-5
 }
 
 .grid_container header h2:after {

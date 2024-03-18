@@ -1,9 +1,9 @@
 .works {
-  @apply container mx-auto grid grid-cols-2
+  @apply container mx-auto grid md:grid-cols-2
 }
 
 .works article {
-  @apply relative flex h-96 self-center justify-center items-center content-center bg-[#1e1e1e] transition duration-300
+  @apply relative flex h-48 md:h-96 self-center justify-center items-center content-center bg-[#1e1e1e] transition duration-300
 }
 
 .works article div {
