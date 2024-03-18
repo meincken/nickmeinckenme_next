@@ -63,6 +63,11 @@ h6 small {
   @apply text-gray-500
 }
 
+.top_scroll {
+  scroll-margin-top: 150px;
+  @apply py-24
+}
+
 .wrapper {
   max-width: 768px;
 }
@@ -76,7 +81,6 @@ svg {
   grid-template-columns: 1fr;
   max-width: 1040px;
   overflow: hidden;
-  @apply py-5
 }
 
 @media (min-width: 768px) {
