@@ -1,12 +1,12 @@
 'use client'
-import projects from '@/data/projects.json'
+import projects from '@/data/home.json'
 import Image from 'next/image'
 import './works.css'
 
 export function Projects() {
   return (
     <div className='works'>
-      {projects.map((project, x) => {
+      {projects.projects.map((project, x) => {
         return (
           <article key={x}>
             <Image

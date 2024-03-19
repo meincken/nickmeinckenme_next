@@ -1,10 +1,10 @@
 'use client'
-import social from '@/data/education.json'
+import data from '@/data/home.json'
 
 export function EducationList() {
   return (
     <>
-      {social.map((edu, x) => {
+      {data.education.map((edu, x) => {
         return (
           <article key={x}>
             <h3 className='text-xl font-bold'>{edu.course}</h3>

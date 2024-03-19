@@ -18,11 +18,8 @@ export default function Index() {
       <Jumbotron />
       <About />
       <Education />
-      <hr />
       <EmploymentHistory />
-      <hr />
       <Skills />
-      <hr />
       <Works />
       <Footer />
     </>

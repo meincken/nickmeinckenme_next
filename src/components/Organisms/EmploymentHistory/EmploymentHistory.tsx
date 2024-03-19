@@ -1,10 +1,11 @@
 import { EmploymentHistoryList } from "@/clientComponents";
+import data from '@/data/home.json'
 
 export const EmploymentHistory = () => {
   return (
     <div id="resume" className="grid_container mx-auto top_scroll">
       <header>
-        <h2>Employment History</h2>
+        <h2>{data.employmentTitle}</h2>
       </header>
       <div>
         <EmploymentHistoryList />

@@ -139,6 +139,10 @@ footer span:not(:last-child):after {
     @apply text-[10px] text-black font-normal
   }
 
+  a:after {
+    content: " (" attr(href) ") ";
+  }
+
   p,
   .text-white,
   .resume-print {
