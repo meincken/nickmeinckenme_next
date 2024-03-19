@@ -145,7 +145,10 @@ footer span:not(:last-child):after {
 
   p,
   .text-white,
-  .resume-print {
+  .resume-print,
+  .resume-aside h6,
+  .resume-aside span,
+  .resume-section footer span {
     @apply text-black;
   }
 
