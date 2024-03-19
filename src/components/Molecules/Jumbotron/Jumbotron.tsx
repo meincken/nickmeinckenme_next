@@ -6,7 +6,7 @@ export const Jumbotron = () => {
   return (
     <header id='home' className="md:grid items-center md:text-white text-center">
       <div className={style.jumbotron_content}>
-        <h1 className="text-8xl text-[--brand]">
+        <h1 className="md:text-8xl text-[--brand]">
           Meincken
           <small className="block text-[45%] md:text-white">Front End Developer</small>
         </h1>

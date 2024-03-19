@@ -81,7 +81,7 @@ svg {
   grid-template-columns: 1fr;
   max-width: 1040px;
   overflow: hidden;
-  @apply mx-auto
+  @apply mx-auto px-5
 }
 
 @media (min-width: 768px) {
