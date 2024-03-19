@@ -1,4 +1,3 @@
-'use client'
 import social from '@/data/social.json'
 import { Icons } from '@/components/Atoms'
 

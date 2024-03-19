@@ -1,4 +1,3 @@
-'use client'
 import proskills from '@/data/proskill.json'
 import './skills.css'
 

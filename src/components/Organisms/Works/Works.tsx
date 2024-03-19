@@ -1,4 +1,4 @@
-import { Projects } from '@/clientComponents/'
+import { Projects } from '@/components/Client'
 import data from '@/data/home.json'
 
 export const Works = () => {

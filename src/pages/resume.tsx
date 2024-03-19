@@ -4,7 +4,7 @@ import {
   EducationList,
   EmploymentHistoryListResume,
   SkillsListResume
-} from '@/clientComponents'
+} from '@/components/Client'
 import {
   Hcard
 } from '@/components/Atoms'

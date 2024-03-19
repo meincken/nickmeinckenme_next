@@ -1,4 +1,3 @@
-'use client'
 import data from '@/data/home.json'
 
 export function EducationList() {

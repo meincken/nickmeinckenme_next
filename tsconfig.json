@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "src/components/Atoms/Pie/Pie.jsx"
+    "**/*.jsx"
   ],
   "exclude": [
     "node_modules"

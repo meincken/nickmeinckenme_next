@@ -2,7 +2,7 @@ import Head from "next/head"
 import { AppProps } from "next/app";
 import { Roboto } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Header } from "@/clientComponents";
+import { Header } from "@/components/Client";
 import "../styles/index.css";
 
 const roboto = Roboto({

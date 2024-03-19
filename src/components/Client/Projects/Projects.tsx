@@ -1,4 +1,3 @@
-'use client'
 import projects from '@/data/home.json'
 import Image from 'next/image'
 import './works.css'

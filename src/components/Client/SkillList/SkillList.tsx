@@ -1,4 +1,3 @@
-'use client'
 import proskills from '@/data/proskill.json'
 import { Pie } from '@/components/Atoms'
 import './skillist.css'

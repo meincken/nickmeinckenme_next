@@ -1,4 +1,4 @@
-import { EducationList } from "@/clientComponents"
+import { EducationList } from "@/components/Client"
 import data from '@/data/home.json'
 
 export const Education = () => {

@@ -1,4 +1,4 @@
-import { EmploymentHistoryList } from "@/clientComponents";
+import { EmploymentHistoryList } from "@/components/Client";
 import data from '@/data/home.json'
 
 export const EmploymentHistory = () => {

@@ -1,5 +1,5 @@
 import { HeroImage } from "@/components/Atoms"
-import { Social } from "@/clientComponents"
+import { Social } from "@/components/Client"
 import style from './Jumbotron.module.css'
 import data from '@/data/home.json'
 

@@ -1,4 +1,4 @@
-import { SkillsList } from "@/clientComponents";
+import { SkillsList } from "@/components/Client";
 import data from '@/data/home.json'
 
 export const Skills = () => {

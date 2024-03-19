@@ -1,4 +1,4 @@
-import { Nav } from "@/clientComponents/"
+import { Nav } from "@/components/Client"
 
 export const Navigation = () => {
   return (

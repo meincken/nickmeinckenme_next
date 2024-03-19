@@ -1,4 +1,3 @@
-'use client'
 import employment from '@/data/roles.json'
 
 export function EmploymentHistoryListResume() {

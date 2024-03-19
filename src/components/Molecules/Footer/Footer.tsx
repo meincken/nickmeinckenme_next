@@ -1,4 +1,4 @@
-import { Social } from "@/clientComponents";
+import { Social } from "@/components/Client";
 
 export const Footer = () => {
   const date = new Date();
