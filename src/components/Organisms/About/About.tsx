@@ -5,7 +5,7 @@ import Link from 'next/link'
 export const About = () => {
   return (
     <div id="about" className="bg-[#1e1e1e] text-[#e1e1e1] px-5 top_scroll">
-      <div className='container mx-auto py-10 grid_container'>
+      <div className='container py-10 grid_container'>
         <Image
           src={profilePic}
           alt="Nick Meincken"
