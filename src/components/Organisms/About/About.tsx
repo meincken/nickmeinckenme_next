@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import profilePic from '@/img/profilepic.webp'
 import Link from 'next/link'
+import data from '@/data/home.json'
 
 export const About = () => {
   return (
@@ -8,27 +9,26 @@ export const About = () => {
       <div className='container py-10 grid_container'>
         <Image
           src={profilePic}
-          alt="Nick Meincken"
+          alt={data.aboutImgAlt}
           placeholder="blur"
           quality={100}
           className='rounded-full mx-auto'
         />
         <div className="intro">
-          <h2 className='text-left'>About Me</h2>
-          <p>
-            I am an experienced AEM Front End Developer. I specialise in creating clean semantic code to ensure fast load times. A champion of atomic design principles and where possible, develop style guides and pattern libraries to ensure consistent and rapid development when working as part of a team.
-          </p>
-          <p>
-            I am as comfortable coding in raw HTML as I am using products such as React. I enjoy working as part of an Agile team and have worked on some of the countries largest e-commerce sites.
-          </p>
+          <h2 className='text-left'>{data.aboutTitle}</h2>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: data.aboutContent,
+            }}
+          />
           <div className="contact mt-5">
-            <h2>Contact</h2>
+            <h2>{data.contactTitle}</h2>
             <div className='split'>
-              <a href="mailto:nick@meincken.com">nick@meincken.com</a>
+              <a href={`mailto:${data.contactMail}`}>{data.contactMail}</a>
               <div>
-                <Link className='btn' href={`resume`}>Online Resume</Link>
-                <Link className='btn' href={`./NickMeinckenResume.pdf`}>Download PDF</Link>
-                <Link className='btn' href={`./NickMeinckenResume.docx`}>Download DocX</Link>
+                <Link className='btn' href={data.links[0].url}>{data.links[0].title}</Link>
+                <Link className='btn' href={data.links[1].url}>{data.links[1].title}</Link>
+                <Link className='btn' href={data.links[2].url}>{data.links[2].title}</Link>
               </div>
             </div>
           </div>
