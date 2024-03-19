@@ -17,6 +17,7 @@ export function Projects() {
               height="0"
               sizes="150px"
               className="w-24 h-auto"
+              priority={false}
             />
             <div>
               <h2>{project.title}</h2>
