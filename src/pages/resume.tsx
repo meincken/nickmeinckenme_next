@@ -1,6 +1,7 @@
 import Head from "next/head"
 import Link from "next/link";
 import {
+  Header,
   EducationList,
   EmploymentHistoryListResume,
   SkillsListResume
@@ -17,7 +18,7 @@ export default function Resume() {
   return (
     <>
       <Head>
-        <title>Nick Meincken Resume</title>
+        <title>Nick Meincken | Resume</title>
       </Head>
       <div className="bg-[#1e1e1e] text-[#e1e1e1]">
         <header className="flex justify-center content-between hidden-print-block">
