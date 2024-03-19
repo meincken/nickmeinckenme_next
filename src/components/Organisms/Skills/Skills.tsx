@@ -7,7 +7,7 @@ export const Skills = () => {
         <h2>Skills</h2>
       </header>
       <div>
-        <p>
+        <p className="mb-5">
           I am a competent Front End Developer with good skills with many frameworks and content management systems. Below is my level of competency with various technologies.
         </p>
         <SkillsList />
