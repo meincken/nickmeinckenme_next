@@ -4,7 +4,7 @@ import style from './Jumbotron.module.css'
 
 export const Jumbotron = () => {
   return (
-    <header id='home' className="md:grid items-center md:text-white text-center px-5">
+    <header id='home' className="md:grid items-center md:text-white text-center">
       <div className={style.jumbotron_content}>
         <h1 className="md:text-8xl text-[--brand]">
           Meincken

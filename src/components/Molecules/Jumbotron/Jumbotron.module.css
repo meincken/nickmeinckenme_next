@@ -4,6 +4,7 @@
   place-items: center;
   display: grid;
   z-index: 2;
+  @apply px-5
 }
 
 .jumbotron_image {
