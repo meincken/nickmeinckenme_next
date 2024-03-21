@@ -1,6 +1,6 @@
 export const Hcard = () => {
   return (
-    <div id="hcard-Nicholas-James-Meincken" className="vcard text-right">
+    <div id="hcard-Nicholas-James-Meincken" className="vcard md:text-right">
       <a className="url fn n block" href="https://nickmeincken.me">
         <span className="family-name">Meincken</span>
       </a>

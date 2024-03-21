@@ -6,10 +6,10 @@ export function EmploymentHistoryListResume() {
       {employment.map((role, x) => {
         return (
           <section key={x} className={`mb-4 ${role.break ? 'break' : ''}`}>
-            <header className='flex justify-between'>
+            <header className='md:flex justify-between'>
               <h3 className='text-xl font-bold'>{role.title}</h3>
               <p>
-                <strong className='block text-right'>{role.jobTitle} </strong>
+                <strong className='block md:text-right'>{role.jobTitle} </strong>
                 {role.startDate} - {role.finishDate}
               </p>
             </header>
