@@ -1,0 +1,19 @@
+{
+  "format": "custom",
+  "id": "nav",
+  "label": "nav",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "navitem": {
+        "type": "Link",
+        "config": {
+          "label": "NavItem",
+          "placeholder": "",
+          "select": null
+        }
+      }
+    }
+  }
+}
