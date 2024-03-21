@@ -1,33 +1,14 @@
 {
   "format": "page",
-  "id": "home",
-  "label": "Home",
-  "repeatable": false,
-  "status": true,
+  "id": "resume",
   "json": {
     "Main": {
-      "header": {
-        "type": "StructuredText",
-        "config": {
-          "label": "Header",
-          "placeholder": "",
-          "allowTargetBlank": true,
-          "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
-        }
-      },
       "slices": {
-        "type": "Slices",
-        "fieldset": "Slice Zone",
         "config": {
-          "choices": {
-            "about": {
-              "type": "SharedSlice"
-            },
-            "hero": {
-              "type": "SharedSlice"
-            }
-          }
-        }
+          "choices": {}
+        },
+        "fieldset": "Slice Zone",
+        "type": "Slices"
       }
     },
     "SEO & Metadata": {
@@ -57,5 +38,8 @@
         "type": "Text"
       }
     }
-  }
+  },
+  "label": "Resume",
+  "repeatable": false,
+  "status": true
 }
