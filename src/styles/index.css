@@ -156,6 +156,18 @@ footer span:not(:last-child):after {
     @apply max-w-full
   }
 
+  .resume header {
+    @apply flex
+  }
+
+  .resume header > div {
+    @apply text-right
+  }
+
+  .resume-grid {
+    @apply grid grid-cols-12
+  }
+
   .resume-grid .resume-aside {
     @apply col-span-4
   }
