@@ -1,13 +1,11 @@
 .employment-resume {
   @apply mb-4;
-
-  & header {
-    @apply justify-between;
-
-    & p strong {
-      @apply block;
-    }
-  }
+}
+.employment-resume header {
+  @apply justify-between;
+}
+.employment-resume header p strong {
+  @apply block;
 }
 
 @media (min-width: 768px) {
