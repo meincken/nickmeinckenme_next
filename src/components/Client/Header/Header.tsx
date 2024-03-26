@@ -12,7 +12,7 @@ export function Header() {
       <meta name="theme-color" content="#a9cc17" />
       <meta property="og:type" content="business.business" />
       <meta property="og:title" content={head[0].title} />
-      <meta property="og:url" content="/" />
+      <meta property="og:url" content={head[0].description} />
       <meta property="og:image" content={`/img/og-image.jpg`} />
     </>
   )
