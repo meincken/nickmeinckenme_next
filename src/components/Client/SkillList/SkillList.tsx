@@ -9,7 +9,7 @@ export function SkillsList() {
         return (
           <article key={x}>
             <h4>{skill.section}</h4>
-            <div className="grid md:grid-cols-4 gap-1.5">
+            <div className="proskills">
               {skill.skills.map((sk, x) => {
                 return (
                   <div key={x}>

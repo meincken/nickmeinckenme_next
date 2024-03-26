@@ -9,7 +9,11 @@
 }
 
 a {
-  @apply text-[color:var(--brand)]
+  @apply text-[var(--brand)] transition duration-700
+}
+
+a:hover {
+  @apply brightness-75
 }
 
 h1 {
@@ -24,30 +28,13 @@ h2 {
 
 h3 {
   @apply
-    text-4xl
-}
-
-h4 {
-  @apply
-    text-3xl
-}
-
-h5 {
-  @apply
-    text-2xl
-}
-
-h6 {
-  @apply
     text-xl
+    font-bold
 }
 
 h1 small,
 h2 small,
-h3 small,
-h4 small,
-h5 small,
-h6 small {
+h3 small {
   font-size: 65%;
 }
 
@@ -132,63 +119,4 @@ svg {
 
 footer span:not(:last-child):after {
   content: ", "
-}
-
-@media print {
-  html {
-    @apply text-[10px] text-black font-normal
-  }
-
-  a:after {
-    content: " (" attr(href) ") ";
-  }
-
-  p,
-  .text-white,
-  .resume-print,
-  .resume-aside h6,
-  .resume-aside span,
-  .resume-section footer span {
-    @apply text-black;
-  }
-
-  .resume {
-    @apply max-w-full
-  }
-
-  .resume header {
-    @apply flex
-  }
-
-  .resume header > div {
-    @apply text-right
-  }
-
-  .resume-grid {
-    @apply grid grid-cols-12
-  }
-
-  .resume-grid .resume-aside {
-    @apply col-span-4
-  }
-
-  .resume-grid .resume-section {
-    @apply col-span-8
-  }
-
-  aside h3 {
-    @apply font-normal text-xs
-  }
-
-  .break {
-    page-break-after: always
-  }
-
-  .hidden-print-block {
-    @apply hidden
-  }
-
-  .progress {
-    @apply hidden
-  }
 }

@@ -1,0 +1,9 @@
+.nav {
+  @apply fixed w-full top-0 bg-black text-white hidden content-center justify-center z-10
+}
+
+@media (min-width: 768px) {
+  .nav {
+    @apply flex;
+  }
+}

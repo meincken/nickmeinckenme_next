@@ -18,8 +18,20 @@ progress::-webkit-progress-value {
   border-radius: .3rem
 }
 
+.skills span {
+  @apply block mb-2
+}
+
+.skills span small {
+  @apply block
+}
+
+.skills span progress {
+  @apply block w-full
+}
+
 @media print {
-  progress {
+  .skills span progress {
     display: none;
   }
 }

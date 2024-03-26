@@ -1,0 +1,27 @@
+.employment-resume {
+  @apply mb-4;
+
+  & header {
+    @apply justify-between;
+
+    & p strong {
+      @apply block;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .employment-resume header {
+    @apply flex;
+  }
+
+  .employment-resume header p {
+    @apply text-right
+  }
+}
+
+@media print {
+  .employment-resume header p {
+    @apply text-right
+  }
+}

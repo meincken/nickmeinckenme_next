@@ -1,0 +1,15 @@
+.social {
+  @apply flex justify-center py-5
+}
+
+.social a {
+  @apply text-[--brand] px-2 transition duration-700
+}
+
+.social a:hover {
+  @apply brightness-75
+}
+
+.social a svg {
+  @apply h-8 w-8
+}

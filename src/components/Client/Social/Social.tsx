@@ -1,13 +1,14 @@
 import social from '@/data/social.json'
 import { Icons } from '@/components/Atoms'
+import styles from './Social.module.css'
 
 export function Social() {
   return (
-    <div className='flex justify-center py-5'>
+    <div className={styles.social}>
       {social.map((socialItem, x) => {
         return (
-          <a key={x} href={socialItem.url} className='text-[#a9cc17] px-2' target='_blank' rel='noopener noreferrer'>
-            <svg className="icon h-8 w-8">
+          <a key={x} href={socialItem.url} target='_blank' rel='noopener noreferrer'>
+            <svg>
               <use xlinkHref={`#${socialItem.name.toLowerCase()}`}></use>
             </svg>
             <span className='sr-only'>{socialItem.name}</span>

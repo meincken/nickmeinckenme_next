@@ -1,0 +1,7 @@
+nav ul {
+  @apply flex py-1;
+
+  & li div {
+    @apply block m-5 cursor-pointer;
+  }
+}

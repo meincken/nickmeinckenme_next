@@ -15,7 +15,6 @@ export function Projects() {
               width="0"
               height="0"
               sizes="150px"
-              className="w-24 h-auto"
               priority={false}
             />
             <div>

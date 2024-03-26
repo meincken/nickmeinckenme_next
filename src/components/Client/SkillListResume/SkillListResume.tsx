@@ -6,14 +6,14 @@ export function SkillsListResume() {
     <>
       {proskills.map((skill, x) => {
         return (
-          <article key={x}>
+          <article key={x} className='skills'>
             <h6>{skill.section}</h6>
             {skill.skills.map((sk, x) => {
               return (
-                <span key={x} className='block mb-2'>
+                <span key={x}>
                   {sk.skilltitle} - {sk.length} years
                   {sk.title && <small>{sk.title} - {sk.pack}</small>}
-                  <progress className='block progress w-full' id={sk.skilltitle} value={sk.value} max={`100`}>
+                  <progress id={sk.skilltitle} value={sk.value} max={`100`}>
                     {sk.value}
                   </progress>
                 </span>

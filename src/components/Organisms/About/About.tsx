@@ -15,7 +15,7 @@ export const About = () => {
           className='rounded-full mx-auto'
         />
         <div className="intro">
-          <h2 className='text-left'>{data.aboutTitle}</h2>
+          <h2>{data.aboutTitle}</h2>
           <div
             dangerouslySetInnerHTML={{
               __html: data.aboutContent,

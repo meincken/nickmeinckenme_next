@@ -1,3 +1,13 @@
-circle {
+/* circle {
   transition: all 0.7s ease-in-out;
+} */
+
+.proskills {
+  @apply grid gap-1.5
+}
+
+@media (min-width: 768px) {
+  .proskills {
+    @apply grid-cols-4
+  }
 }

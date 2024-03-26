@@ -1,0 +1,15 @@
+.employment {
+  @apply mb-5;
+
+  & header {
+    @apply flex justify-between mb-2;
+
+    & p {
+      @apply text-right;
+
+      & strong {
+        @apply block
+      }
+    }
+  }
+}

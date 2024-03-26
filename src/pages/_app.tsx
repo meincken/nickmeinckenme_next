@@ -4,6 +4,7 @@ import { Roboto } from 'next/font/google'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Header } from "@/components/Client";
 import "../styles/index.css";
+import "../styles/print.css";
 
 const roboto = Roboto({
   weight: '100',
