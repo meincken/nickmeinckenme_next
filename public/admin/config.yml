@@ -1,0 +1,100 @@
+backend:
+  name: test-repo
+  branch: main
+local_backend: true
+media_folder: public/img
+public_folder: img
+display_url: https://nickmeincken.me
+collections:
+  - name: 'pages'
+    label: 'Pages'
+    files:
+    - label: 'Index'
+      name: 'index'
+      file: 'src/content/index.json'
+      fields:
+        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+        - label: 'Intro'
+          name: 'intro'
+          widget: object
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'SubTitle', name: 'subtitle', widget: 'string' }
+            - { label: 'Intro', name: 'intro', widget: 'text' }
+        - label: 'About'
+          name: 'about'
+          widget: object
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'Content', name: 'content', widget: 'markdown' }
+            - { label: 'Profile Img', name: 'profileImg', widget: 'image' }
+            - { label: 'alt', name: 'alt', widget: 'string' }
+        - label: 'Contact'
+          name: 'contact'
+          widget: object
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'Mail', name: 'mail', widget: 'string' }
+            - label: 'Button'
+              name: 'button'
+              widget: list
+              fields:
+                - { label: 'Title', name: 'title', widget: 'string' }
+                - { label: 'URL', name: 'url', widget: 'string' }
+        - label: 'Education'
+          name: 'education'
+          widget: object
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - label: 'Education'
+              name: 'education'
+              widget: list
+              fields:
+                - { label: 'Location', name: 'location', widget: 'string' }
+                - { label: 'Course', name: 'course', widget: 'string' }
+                - { label: 'Year', name: 'year', widget: 'string' }
+
+  - name: 'roles'
+    label: 'Roles'
+    files:
+      - label: 'Roles'
+        name: 'roles'
+        file: 'src/content/roles.json'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string'}
+          - label: 'Role'
+            name: 'role'
+            widget: list
+            fields:
+              - { label: 'Company', name: 'company', widget: 'string' }
+              - { label: 'Job Title', name: 'jobTitle', widget: 'string' }
+              - { label: 'Start Date', name: 'startDate', widget: 'string' }
+              - { label: 'Finish Date', name: 'finishDate', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+              - { label: 'Break', name: 'break', widget: 'boolean', default: 'false' }
+              - { label: 'Tags', name: 'tags', widget: 'list' }
+
+  - name: 'config'
+    label: 'Config'
+    files:
+      - label: 'Site Meta'
+        name: 'sitemeta'
+        file: 'src/content/config.json'
+        fields:
+          - label: 'Site Meta'
+            name: 'sitemeta'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'text' }
+          - labels: 'Socials'
+            name: 'social'
+            widget: list
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'URL', name: 'url', widget: 'string' }
+          - labels: 'Navigation'
+            name: 'navigation'
+            widget: list
+            fields:
+              - { label: 'Item', name: 'item', widget: 'string' }

@@ -1,4 +1,4 @@
-import data from '@/data/home.json'
+import data from '@/content/config.json'
 import './Nav.css'
 
 export function Nav() {
@@ -9,7 +9,7 @@ export function Nav() {
 
   return (
     <ul>
-      {data.nav.map((navItem, x) => {
+      {data.navigation.map((navItem, x) => {
         return (
           <li key={x}>
             <div onClick={() => scrolltoHash(`${navItem.item.toLowerCase()}`)}>

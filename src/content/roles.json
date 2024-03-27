@@ -1,0 +1,292 @@
+{
+  "title": "Employment History",
+  "role": [
+    {
+      "company": "3|Share",
+      "jobTitle": "Senior Developer",
+      "startDate": "February 2022",
+      "finishDate": "November 2023",
+      "description": "Support for AEM front end builds by improving page performance and optimisation of legacy code base. Working as part of a team spread across the globe to provide an excellent service to our clients.",
+      "break": false,
+      "tags":[
+        "AEM",
+        "DAM",
+        "CSS",
+        "JS"
+      ]
+    },
+    {
+      "company": "Adobe",
+      "jobTitle": "Front End Architect",
+      "startDate": "August 2021",
+      "finishDate": "January 2022",
+      "description": "Building a scalable design system for migrating a large number of sites from different AEM/Wordpress environments to the newer AEMCS. Creating a robust reusable pattern library which can be branded for a specific brand with a simple to update config. Delivering the proof of concept to the client via a well documented presentations and videos.",
+      "break": false,
+      "tags": [
+        "BuildScripts",
+        "SCSS",
+        "AEM",
+        "CoreComponents",
+        "Migration"
+      ]
+    },
+    {
+      "company": "Diva-E",
+      "jobTitle": "Front End Developer",
+      "startDate": "June 2021",
+      "finishDate": "July 2021",
+      "description": "Providing support and minor bug fixing for AEM frontend builds.",
+      "break": false,
+      "tags": [
+        "AEM",
+        "(S)CSS",
+        "TypeScript",
+        "Kluntje"
+      ]
+    },
+    {
+      "company": "Deloitte Belgium",
+      "jobTitle": "React UI Developer",
+      "startDate": "March 2021",
+      "finishDate": "May 2021",
+      "description": "Building a profile builder for an external client in NextJS with GraphQL and D3js. Adding in linting tools and styled-components to the build to improve developer workflow and also adding in prettier config to keep the development process clean and tidy. Setting up rules for the code base.",
+      "break": false,
+      "tags": [
+        "NextJS",
+        "GraphQL",
+        "prettier",
+        "stylelint",
+        "styled-components"
+      ]
+    },
+    {
+      "company": "We Make Websites",
+      "jobTitle": "Full Stack Developer",
+      "startDate": "Nov 2020",
+      "finishDate": "Jan 2021",
+      "description": "Helping with support of client development adding new features and components to their Shopify themes and also bug fixing existing components.",
+      "break": false,
+      "tags":[
+        "Shopify",
+        "SCSS",
+        "Liquid",
+        "jQuery",
+        "JavaScript",
+        "VueJS",
+        "Slate",
+        "Asana"
+      ]
+    },
+    {
+      "company": "Crabtree & Evelyn",
+      "jobTitle": "Full Stack Developer",
+      "startDate": "Apr 2020",
+      "finishDate": "Oct 2020",
+      "description": "Full stack dev, dealing with build and deployment of new features on the Crabtree & Evelyn website. Built on Shopify and migrating to a distributed development process with Bitbucket integration to setting up deployment environments.",
+      "break": false,
+      "tags": [
+        "Shopify",
+        "Liquid",
+        "jQuery",
+        "CI/CD"
+      ]
+    },
+    {
+      "company": "Grundfos Denmark",
+      "jobTitle": "Front End Engineer",
+      "startDate": "Dec 2019",
+      "finishDate": "Feb 2020",
+      "description": "Grundfos is a globally recognised company which develops water solutions around the world. Building components for AEM in standard HTM in Sightly but also utilising a custom VueJS front end design system using BEM Atomic Design principles.",
+      "break": false,
+      "tags":[
+        "AEM",
+        "VueJS",
+        "SCSS",
+        "Atomic BEM",
+        "Sightly",
+        "AEM_Dialog",
+        "Sling",
+        "node.js",
+        "NPM"
+      ]
+    },
+    {
+      "company": "Texture London",
+      "jobTitle": "Front End Developer",
+      "startDate": "Nov 2019",
+      "finishDate": "Dec 2019",
+      "description": "Front end developer role with minimal back end skills for Shopify. Building online shopping portal for a luxury brand.",
+      "break": true,
+      "tags": [
+        "Shopify",
+        "Liquid",
+        "SCSS",
+        "jQuery",
+        "jQueryUI"
+      ]
+    },
+    {
+      "company": "Signal Noise",
+      "jobTitle": "Front End Developer",
+      "startDate": "Aug 2019",
+      "finishDate": "Oct 2019",
+      "description": "Building AEM components for Siemens using postcss and PatternLab. This project contained the use of Stylelint, PostCSS and BEM within Gulp. It drew in a lot of style rules from other projects created by Signal Noise for Siemens.",
+      "break": false,
+      "tags": [
+        "PostCSS",
+        "Stylint",
+        "BEM",
+        "PatternLab",
+        "Handlebars",
+        "React",
+        "Bootstrap",
+        "GIT"
+      ]
+    },
+    {
+      "company": "Pomegranate",
+      "jobTitle": "Front End Developer",
+      "startDate": "Jul 2019",
+      "finishDate": "Aug 2019",
+      "description": "Building components around the bootstrap framework for a Medical website utilising Handlebars, LESS and jQuery. Sample components and page templates for a CMS. Built the base for reusable components and sections.",
+      "break": false,
+      "tags": [
+        "Less",
+        "Gulp",
+        "Handlebars",
+        "GIT",
+        "Bootstrap",
+        "HTML templates"
+      ]
+    },
+    {
+      "company": "BT",
+      "jobTitle": "Front End Developer",
+      "startDate": "May 2018",
+      "finishDate": "Jun 2019",
+      "description": "BT is a globally recognized telecoms brand. I have been working as part of the Marketing, Brand and Data teams in rebuilding their email templates in AEM for integration into ACM. My main task has been migrating and updating the email templates within AEM to be responsive with more control for the user. I have also worked on a number microsites for campaigns within ACM (Adobe Campaign).",
+      "break": false,
+      "tags": [
+        "AEM",
+        "ACM",
+        "GIT",
+        "Granite UI",
+        "Touch UI",
+        "HTL",
+        "Mustache",
+        "Grunt",
+        "Node",
+        "SCSS",
+        "VanillaJS",
+        "Email Development/Styleguide",
+        "Agile",
+        "Workfront"
+      ]
+    },
+    {
+      "company": "GTA Travel",
+      "jobTitle": "Front End UI Developer",
+      "startDate": "Jan 2018",
+      "finishDate": "May 2018",
+      "description": "GTA Travel have been powering global travel for 40 years. I came on board as part of the marketing team to work on marketing projects and general site optimisation. I am also part of a wider group that has been tasked to create new components and develop a style guide for the site.",
+      "break": false,
+      "tags":[
+        "SCSS",
+        "React",
+        "ATG",
+        "Jira",
+        "GIT",
+        "Sketch",
+        "PhotoShop",
+        "InDesign",
+        "RESTful API",
+        "Handlebars",
+        "WebPack/Gulp"
+      ]
+    },
+    {
+      "company": "Matter of Form",
+      "jobTitle": "Front End Developer",
+      "startDate": "May 2017",
+      "finishDate": "Oct 2017",
+      "description":  "Working as part of a small agile development team in Old Street on a high quality, design led project updating a boutique travel website. Building on modular patterns for CSS, JS and HTML for a CMS.",
+      "break": false,
+      "tags": [
+        "SCSS",
+        "jQuery",
+        "jQueryUI",
+        "Jira",
+        "GIT",
+        "Sketch",
+        "Handlebars",
+        "WebPack",
+        "Responsive component design"
+      ]
+    },
+    {
+      "company": "MerchantCantos",
+      "jobTitle": "Front End Developer",
+      "startDate": "Jan 2017",
+      "finishDate": "Feb 2017 & Mar 2017",
+      "description": "Working as part of a small development team building custom websites for corporate finance using .Net and Umbraco. Support for existing websites and updating an older site to newer code base.",
+      "break": false,
+      "tags": [
+        "SCSS",
+        "jQuery",
+        "Umbraco",
+        "Responsive design"
+      ]
+    },
+    {
+      "company": "Rapha",
+      "jobTitle": "Front End Developer",
+      "startDate": "Sep 2016",
+      "finishDate": "Nov 2016",
+      "description": "Cleaning up the code base of this prestige clothing brand and general site and performance improvements as well as building the new about pages on Wordpress and the updated Cycle Club section.",
+      "break": false,
+      "tags": [
+        "SCSS",
+        "jQuery",
+        "Java",
+        "Hybris CMS/Wordpress",
+        "Responsive design"
+      ]
+    },
+    {
+      "company": "We Are Social",
+      "jobTitle": "Front End Developer",
+      "startDate": "Sep 2016",
+      "finishDate": "Sep 2016",
+      "description": "Microsite for Blind Pig Cider using Wordpress with custom fields and utilising a mobile first design principle as well as improving the mixins for SCSS.",
+      "break": false,
+      "tags": [
+        "Custom Wordpress components",
+        "Responsive design" ,
+        "PHP",
+        "SCSS",
+        "jQuery",
+        "PictureFill",
+        "CSS3",
+        "HTML5"
+      ]
+    },
+    {
+      "company": "Virgin Media",
+      "jobTitle": "Front End Developer",
+      "startDate": "Nov 2009",
+      "finishDate": "Aug 2016",
+      "description": "One of the UK's leading entertainment and communication providers, I was a member of a team of developers working on moving Virgin Media to a fully responsive website and migrating from multiple instances of CQ5 to a single version of AEM6. First hand experience with AEM adapting many of the core components within AEM to modified and customised versions specifically for Virgin Media, as well as custom components.",
+      "break": false,
+      "tags": [
+        "Building components for AEM",
+        "HTML5",
+        "jQuery",
+        "CSS3",
+        "Building online styleguide",
+        "Tactical and Strategic redesign HTML",
+        "Agile work process",
+        "Responsive and Adaptive builds"
+      ]
+    }
+  ]
+}

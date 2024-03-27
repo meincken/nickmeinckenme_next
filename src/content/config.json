@@ -1,0 +1,40 @@
+{
+  "sitemeta": {
+    "title": "Nick Meincken",
+    "description": "Welcome to the online profile of Nick Meincken, full stack, front end developer. I specialise in reusable UI component libraries and front end styleguides for rapid development."
+  },
+  "social": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/meincken/"
+    },
+    {
+      "name": "Instagram",
+      "url": "http://instagram.com/meincken"
+    },
+    {
+      "name": "Github",
+      "url": "http://github.com/meincken"
+    }
+  ],
+  "navigation": [
+    {
+      "item": "Home"
+    },
+    {
+      "item": "About"
+    },
+    {
+      "item": "Education"
+    },
+    {
+      "item": "Resume"
+    },
+    {
+      "item": "Skills"
+    },
+    {
+      "item": "Works"
+    }
+  ]
+}

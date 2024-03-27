@@ -1,24 +1,4 @@
 {
-  "nav": [
-    {
-      "item": "Home"
-    },
-    {
-      "item": "About"
-    },
-    {
-      "item": "Education"
-    },
-    {
-      "item": "Resume"
-    },
-    {
-      "item": "Skills"
-    },
-    {
-      "item": "Works"
-    }
-  ],
   "title": "Meincken",
   "subtitle": "Front End Developer",
   "intro": "I'm a London based Front End Developer. I build websites and component libraries for pretty much anything.",

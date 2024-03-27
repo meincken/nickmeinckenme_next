@@ -17,6 +17,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <Header />
+
       </Head>
       <main className={`${roboto.variable} font-sans`}>
         <Component {...pageProps} />
