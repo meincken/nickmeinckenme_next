@@ -1,0 +1,52 @@
+{
+  "date": "2024-03-27T16:59:32.665Z",
+  "intro": {
+    "title": "Meincken",
+    "subtitle": "Front End Developer",
+    "intro": "I'm a London based Front End Developer. I build websites and component libraries for pretty much anything."
+  },
+  "about": {
+    "title": "About Me",
+    "content": "<p>I am an experienced AEM Front End Developer. I specialise in creating clean semantic code to ensure fast load times. A champion of atomic design principles and where possible, develop style guides and pattern libraries to ensure consistent and rapid development when working as part of a team.</p><p>I am as comfortable coding in raw HTML as I am using products such as React. I enjoy working as part of an Agile team and have worked on some of the countries largest e-commerce sites.</p>",
+    "profileImg": "img/profilepic.webp",
+    "alt": "Nick Meincken"
+  },
+  "contact": {
+    "title": "Contact",
+    "mail": "nick@meincken.com",
+    "button": [
+      {
+        "title": "Online Resume",
+        "url": "resume"
+      },
+      {
+        "title": "Download PDF",
+        "url": "./NickMeinckenResume.pdf"
+      },
+      {
+        "title": "Download DocX",
+        "url": "./NickMeinckenResume.docx"
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "education": [
+      {
+        "location": "Adobe Training Center",
+        "course": "AEM Sites Developer",
+        "year": "March 2015"
+      },
+      {
+        "location": "The Community College Hackney",
+        "course": "BTEC Web Authoring Level II (distinction)",
+        "year": "March 2006"
+      },
+      {
+        "location": "Spelthorne College, Middlesex",
+        "course": "BTEC Photography & Business Skills",
+        "year": "April 1997"
+      }
+    ]
+  }
+}
