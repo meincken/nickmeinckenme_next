@@ -36,5 +36,15 @@
     {
       "item": "Works"
     }
-  ]
+  ],
+  "hCard": {
+    "full_name": "Nicholas James Meincken",
+    "url": "https://nickmeincken.me",
+    "url_title": "Meincken",
+    "locality": "Surbiton",
+    "country_name": "Surrey UK",
+    "phone": "07967961441",
+    "email": "nick@meincken.com",
+    "github_url": "https://github.com/meincken"
+  }
 }

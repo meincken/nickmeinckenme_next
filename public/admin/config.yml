@@ -153,3 +153,16 @@ collections:
             widget: list
             fields:
               - { label: 'Item', name: 'item', widget: 'string' }
+          - labels: 'hCard'
+            name: 'hCard'
+            widget: 'object'
+            fields:
+              - { label: 'Full Name', name: 'full_name', widget: 'string' }
+              - { label: 'Github URL', name: 'github_url', widget: 'string' }
+              - { label: 'URL', name: 'url', widget: 'string' }
+              - { label: 'URL Title', name: 'url_title', widget: 'string' }
+              - { label: 'Email', name: 'email', widget: 'string' }
+              - { label: 'Locality', name: 'locality', widget: 'string' }
+              - { label: 'Country Name', name: 'country_name', widget: 'string' }
+              - { label: 'Phone', name: 'phone', widget: 'string' }
+
