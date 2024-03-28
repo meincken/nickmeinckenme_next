@@ -8,27 +8,37 @@
         {
           "title": "Semantic HTML",
           "length": "20",
-          "value": "100"
+          "value": "100",
+          "subtitle": "",
+          "pack": ""
         },
         {
           "title": "CSS",
           "length": "20",
-          "value": "100"
+          "value": "100",
+          "subtitle": "",
+          "pack": ""
         },
         {
           "title": "Vanilla JS/jQuery",
           "length": "15",
-          "value": "80"
+          "value": "80",
+          "subtitle": "",
+          "pack": ""
         },
         {
           "title": "SCSS",
           "length": "8",
-          "value": "90"
+          "value": "90",
+          "subtitle": "",
+          "pack": ""
         },
         {
           "title": "PostCSS",
           "length": "3",
-          "value": "90"
+          "value": "90",
+          "subtitle": "",
+          "pack": ""
         }
       ]
     },
@@ -38,7 +48,9 @@
         {
           "title": "React/NextJS/Gatsby",
           "length": "5",
-          "value": "80"
+          "value": "80",
+          "subtitle": "",
+          "pack": ""
         }
       ]
     },
@@ -48,12 +60,16 @@
         {
           "title": "Photoshop",
           "length": "20",
-          "value": "100"
+          "value": "100",
+          "subtitle": "",
+          "pack": ""
         },
         {
           "title": "VS Code",
           "length": "4",
-          "value": "80"
+          "value": "80",
+          "subtitle": "",
+          "pack": ""
         }
       ]
     },
