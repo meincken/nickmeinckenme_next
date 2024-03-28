@@ -1,5 +1,5 @@
 backend:
-  name: github
+  name: test-repo
   repo: meincken/nickmeinckenme_next
   branch: main
   base_url: https://nickmeincken.me
