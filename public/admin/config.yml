@@ -1,5 +1,5 @@
 backend:
-  name: test-repo
+  name: git-gateway
   branch: main
 local_backend: true
 media_folder: public/img
@@ -73,6 +73,30 @@ collections:
               - { label: 'Description', name: 'description', widget: 'text' }
               - { label: 'Break', name: 'break', widget: 'boolean', default: 'false' }
               - { label: 'Tags', name: 'tags', widget: 'list' }
+
+  - name: 'skills'
+    label: 'Skills'
+    files:
+      - label: 'Skills'
+        name: 'skills'
+        file: 'src/content/skills.json'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Content', name: 'content', widget: 'text' }
+          - label: 'Skills'
+            name: 'skills'
+            widget: list
+            fields:
+              - { label: 'Section', name: 'section', widget: 'string' }
+              - label: 'Skill'
+                name: 'skill'
+                widget: 'list'
+                fields:
+                  - { label: 'Title', name: 'title', widget: 'string' }
+                  - { label: 'Length', name: 'length', widget: 'string' }
+                  - { label: 'Value', name: 'value', widget: 'string' }
+                  - { label: 'Sub Title', name: 'subtitle', widget: 'string', required: false }
+                  - { label: 'Pack', name: 'pack', widget: 'string', required: false }
 
   - name: 'config'
     label: 'Config'

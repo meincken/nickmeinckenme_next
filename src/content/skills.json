@@ -1,0 +1,80 @@
+{
+  "title": "Skills",
+  "content": "I am a competent Front End Developer with good skills with many frameworks and content management systems. Below is my level of competency with various technologies.",
+  "skills": [
+    {
+      "section": "Languages",
+      "skill": [
+        {
+          "title": "Semantic HTML",
+          "length": "20",
+          "value": "100"
+        },
+        {
+          "title": "CSS",
+          "length": "20",
+          "value": "100"
+        },
+        {
+          "title": "Vanilla JS/jQuery",
+          "length": "15",
+          "value": "80"
+        },
+        {
+          "title": "SCSS",
+          "length": "8",
+          "value": "90"
+        },
+        {
+          "title": "PostCSS",
+          "length": "3",
+          "value": "90"
+        }
+      ]
+    },
+    {
+      "section": "Framework/Libraries",
+      "skill": [
+        {
+          "title": "React/NextJS/Gatsby",
+          "length": "5",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "section": "Tools",
+      "skill": [
+        {
+          "title": "Photoshop",
+          "length": "20",
+          "value": "100"
+        },
+        {
+          "title": "VS Code",
+          "length": "4",
+          "value": "80"
+        }
+      ]
+    },
+    {
+      "section": "Compilers & Platforms",
+      "skill": [
+        {
+          "title": "Bundlers",
+          "length": "18",
+          "value": "90",
+          "subtitle": "Bundlers",
+          "pack": "Webpack, Grunt, Gulp, Parcel"
+        },
+        {
+          "title": "CMS",
+          "length": "18",
+          "value": "80",
+          "subtitle": "Content Management Systems",
+          "pack": "AEM, Wordpress, Jekyll, Shopify, DecapCMS"
+        }
+      ]
+    }
+  ]
+}
