@@ -1,10 +1,13 @@
 backend:
   name: git-gateway
   branch: main
+  site_domain: https://nickmeincken.vercel.app
+
 local_backend: true
 media_folder: public/img
 public_folder: img
 display_url: https://nickmeincken.me
+
 collections:
   - name: 'pages'
     label: 'Pages'
@@ -54,6 +57,19 @@ collections:
                 - { label: 'Course', name: 'course', widget: 'string' }
                 - { label: 'Year', name: 'year', widget: 'string' }
 
+    - label: 'Resume'
+      name: 'resume'
+      file: 'src/content/resume.json'
+      fields:
+        - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+        - label: 'Intro'
+          name: 'intro'
+          widget: object
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'SubTitle', name: 'subtitle', widget: 'string' }
+            - { label: 'Intro', name: 'intro', widget: 'text' }
+
   - name: 'roles'
     label: 'Roles'
     files:
@@ -97,6 +113,24 @@ collections:
                   - { label: 'Value', name: 'value', widget: 'string' }
                   - { label: 'Sub Title', name: 'subtitle', widget: 'string', required: false }
                   - { label: 'Pack', name: 'pack', widget: 'string', required: false }
+
+  - name: 'works'
+    label: 'Works'
+    files:
+      - label: 'Works'
+        name: 'works'
+        file: 'src/content/works.json'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - { label: 'Content', name: 'content', widget: 'text' }
+          - label: 'Project'
+            name: 'project'
+            widget: 'list'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - { label: 'Description', name: 'description', widget: 'string' }
+              - { label: 'url', name: 'url', widget: 'string' }
+              - { label: 'image', name: 'image', widget: 'string', required: false }
 
   - name: 'config'
     label: 'Config'

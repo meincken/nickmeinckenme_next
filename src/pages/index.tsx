@@ -7,12 +7,13 @@ import {
   Skills,
   Works
 } from '@/components/Organisms'
+import data from '@/content/config.json'
 
 export default function Index() {
   return (
     <>
       <Head>
-        <title>Nick Meincken</title>
+        <title>{data.sitemeta.title}</title>
       </Head>
       <Navigation />
       <Jumbotron />
