@@ -72,9 +72,10 @@ collections:
             - { label: 'SubTitle', name: 'subtitle', widget: 'string' }
             - { label: 'Intro', name: 'intro', widget: 'text' }
 
-  - name: 'roles'
-    label: 'Roles'
+  - name: 'sections'
+    label: 'Sections'
     files:
+
       - label: 'Roles'
         name: 'roles'
         file: 'src/content/roles.json'
@@ -92,9 +93,6 @@ collections:
               - { label: 'Break', name: 'break', widget: 'boolean', default: 'false' }
               - { label: 'Tags', name: 'tags', widget: 'list' }
 
-  - name: 'skills'
-    label: 'Skills'
-    files:
       - label: 'Skills'
         name: 'skills'
         file: 'src/content/skills.json'
@@ -116,9 +114,6 @@ collections:
                   - { label: 'Sub Title', name: 'subtitle', widget: 'string', required: false }
                   - { label: 'Pack', name: 'pack', widget: 'string', required: false }
 
-  - name: 'works'
-    label: 'Works'
-    files:
       - label: 'Works'
         name: 'works'
         file: 'src/content/works.json'
