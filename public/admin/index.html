@@ -1,10 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>GitHub Authentication Example</title>
-
-    <!-- Make sure to include Netlify’s authentication library -->
-    <!-- Also available from npm as netlify-auth-providers -->
+    <title>Nick Meincken</title>
     <script src="https://unpkg.com/netlify-auth-providers"></script>
   </head>
   <body>
@@ -27,9 +24,6 @@
         const authenticator = new netlify.default({});
 
         authenticator.authenticate(
-          // Set the OAuth provider and token scope
-          // Provider can be "github", "gitlab", or "bitbucket"
-          // The scopes available depend on your OAuth provider
           { provider: "github", scope: "user" },
           async function (error, data) {
             if (error) {
