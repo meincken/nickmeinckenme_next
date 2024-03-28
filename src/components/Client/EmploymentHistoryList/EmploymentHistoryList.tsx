@@ -1,14 +1,14 @@
-import employment from '@/data/roles.json'
+import employment from '@/content/roles.json'
 import './EmploymentHistoryList.css'
 
 export function EmploymentHistoryList() {
   return (
     <>
-      {employment.map((role, x) => {
+      {employment.role.map((role, x) => {
         return (
           <section key={x} className='employment'>
             <header>
-              <h3>{role.title}</h3>
+              <h3>{role.company}</h3>
               <p>
                 <strong>{role.jobTitle} </strong>
                 {role.startDate} - {role.finishDate}

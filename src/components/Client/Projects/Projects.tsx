@@ -1,11 +1,11 @@
-import projects from '@/data/home.json'
+import data from '@/content/works.json'
 import Image from 'next/image'
 import './works.css'
 
 export function Projects() {
   return (
     <div className='works'>
-      {projects.projects.map((project, x) => {
+      {data.project.map((project, x) => {
         return (
           <article key={x}>
             <Image

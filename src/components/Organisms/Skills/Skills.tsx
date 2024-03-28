@@ -1,5 +1,5 @@
 import { SkillsList } from "@/components/Client";
-import data from '@/data/home.json'
+import data from '@/content/skills.json'
 
 export const Skills = () => {
   return (
@@ -7,11 +7,11 @@ export const Skills = () => {
       <section id="skills" className="top_scroll bg-[#1e1e1e] text-[#e1e1e1]">
         <div className="grid_container">
           <header>
-            <h2>{data.skillsTitle}</h2>
+            <h2>{data.title}</h2>
           </header>
           <div>
             <p className="mb-5">
-              {data.skillsContent}
+              {data.content}
             </p>
             <SkillsList />
           </div>

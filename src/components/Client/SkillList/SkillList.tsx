@@ -1,20 +1,20 @@
-import proskills from '@/data/proskill.json'
+import data from '@/content/skills.json'
 import { Pie } from '@/components/Atoms'
 import './skillist.css'
 
 export function SkillsList() {
   return (
     <>
-      {proskills.map((skill, x) => {
+      {data.skills.map((skill, x) => {
         return (
           <article key={x}>
             <h4>{skill.section}</h4>
             <div className="proskills">
-              {skill.skills.map((sk, x) => {
+              {skill.skill.map((sk, x) => {
                 return (
                   <div key={x}>
-                    <Pie percentage={sk.value} colour="var(--brand)" title={sk.skilltitle} />
-                    {sk.title && <small>{sk.title} - {sk.pack}</small>}
+                    <Pie percentage={sk.value} colour="var(--brand)" title={sk.title} />
+                    {sk.subtitle && <small>{sk.subtitle} - {sk.pack}</small>}
                   </div>
                 )
               })}

@@ -1,14 +1,14 @@
-import data from '@/data/home.json'
+import data from '@/content/index.json'
 
 export function EducationList() {
   return (
     <>
-      {data.education.map((edu, x) => {
+      {data.education.education.map((edu, x) => {
         return (
           <article key={x}>
             <h3>{edu.course}</h3>
             <p>
-              {edu.site}
+              {edu.location}
               <span> · </span>
               {edu.year}
             </p>

@@ -1,0 +1,96 @@
+{
+  "title": "Skills",
+  "content": "I am a competent Front End Developer with good skills with many frameworks and content management systems. Below is my level of competency with various technologies.",
+  "skills": [
+    {
+      "section": "Languages",
+      "skill": [
+        {
+          "title": "Semantic HTML",
+          "length": "20",
+          "value": "100",
+          "subtitle": "",
+          "pack": ""
+        },
+        {
+          "title": "CSS",
+          "length": "20",
+          "value": "100",
+          "subtitle": "",
+          "pack": ""
+        },
+        {
+          "title": "Vanilla JS/jQuery",
+          "length": "15",
+          "value": "80",
+          "subtitle": "",
+          "pack": ""
+        },
+        {
+          "title": "SCSS",
+          "length": "8",
+          "value": "90",
+          "subtitle": "",
+          "pack": ""
+        },
+        {
+          "title": "PostCSS",
+          "length": "3",
+          "value": "90",
+          "subtitle": "",
+          "pack": ""
+        }
+      ]
+    },
+    {
+      "section": "Framework/Libraries",
+      "skill": [
+        {
+          "title": "React/NextJS/Gatsby",
+          "length": "5",
+          "value": "80",
+          "subtitle": "",
+          "pack": ""
+        }
+      ]
+    },
+    {
+      "section": "Tools",
+      "skill": [
+        {
+          "title": "Photoshop",
+          "length": "20",
+          "value": "100",
+          "subtitle": "",
+          "pack": ""
+        },
+        {
+          "title": "VS Code",
+          "length": "4",
+          "value": "80",
+          "subtitle": "",
+          "pack": ""
+        }
+      ]
+    },
+    {
+      "section": "Compilers & Platforms",
+      "skill": [
+        {
+          "title": "Bundlers",
+          "length": "18",
+          "value": "90",
+          "subtitle": "Bundlers",
+          "pack": "Webpack, Grunt, Gulp, Parcel"
+        },
+        {
+          "title": "CMS",
+          "length": "18",
+          "value": "80",
+          "subtitle": "Content Management Systems",
+          "pack": "AEM, Wordpress, Jekyll, Shopify, DecapCMS"
+        }
+      ]
+    }
+  ]
+}
