@@ -1,7 +1,9 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: meincken/nickmeinckenme_next
   branch: main
-  site_domain: https://nickmeincken.vercel.app
+  base_url: https://nickmeincken.me
+  auth_endpoint: api/auth
 
 local_backend: true
 media_folder: public/img
