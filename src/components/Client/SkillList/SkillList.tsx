@@ -14,7 +14,7 @@ export function SkillsList() {
                 return (
                   <div key={x}>
                     <Pie percentage={sk.value} colour="var(--brand)" title={sk.title} />
-                    {sk.subtitle && <small>{sk.subtitle} - {sk.pack}</small>}
+                    {/* {sk.subtitle && <small>{sk.subtitle} - {sk.pack}</small>} */}
                   </div>
                 )
               })}
