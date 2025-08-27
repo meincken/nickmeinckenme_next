@@ -21,7 +21,7 @@ export default function Resume() {
       <Head>
         <title>{site.sitemeta.title} | Resume</title>
       </Head>
-      <div className="bg-[#1e1e1e] text-[#e1e1e1] px-5">
+      <div className="resume-wrap px-5">
         <header className="flex justify-center content-between hidden-print-block">
           <Link className='btn btn-group m-2' href={`/`}>Home</Link>
           <button className='btn btn-group m-2' onClick={handlePrint}>Print</button>

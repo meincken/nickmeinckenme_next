@@ -2,6 +2,19 @@
   "title": "Employment History",
   "role": [
     {
+      "company": "DFIN",
+      "jobTitle": "Associate Software Engineer",
+      "startDate": "April 2024",
+      "finishDate": "Current",
+      "description": "Providing support for custom asset management for financial reporting with CSS specific to print/PDF, troubleshooting specific tasks which require print specific solutions. Introducing better working practices and process flows for developers. Introducing shared knowledge.",
+      "break": false,
+      "tags":[
+        "Reporting",
+        "CSS",
+        "Print CSS"
+      ]
+    },
+    {
       "company": "3|Share",
       "jobTitle": "Senior Developer",
       "startDate": "February 2022",

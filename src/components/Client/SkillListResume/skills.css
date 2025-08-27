@@ -31,7 +31,11 @@ progress::-webkit-progress-value {
 }
 
 @media print {
-  .skills span progress {
+  /* .skills span progress {
     display: none;
+  } */
+  progress::-webkit-progress-value {
+    background-color: var(--light);
+    border-radius: .3rem
   }
 }

@@ -1,6 +1,25 @@
+@page {
+  size: A4;
+  margin: 18pt;
+}
+
+body {
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
+}
+
+.resume-wrap {
+  @apply bg-[#1e1e1e] text-[#e1e1e1]
+}
+
 @media print {
+
   html {
     @apply text-[10px] text-black font-normal
+  }
+
+  .resume-wrap {
+    @apply bg-[#ffffff] text-[#1e1e1e]
   }
 
   a:after {
@@ -52,7 +71,7 @@
     @apply hidden
   }
 
-  .progress {
+  /* .progress {
     @apply hidden
-  }
+  } */
 }
