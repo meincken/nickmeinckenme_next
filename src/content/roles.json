@@ -2,10 +2,24 @@
   "title": "Employment History",
   "role": [
     {
+      "company": "Tesco Mobile",
+      "jobTitle": "AEM Frontend Developer",
+      "startDate": "July 2024",
+      "finishDate": "Present",
+      "description": "Rebuilding the front end from a performance point of view, moving away from the composite solution to components. Using best practices and migrating away from older poor performing third party plugins. Moving and upgrading the current AEM build to be AEMaaCS ready. Building robust and compostible structure that is easy to integrate into the current architecture.",
+      "break": false,
+      "tags":[
+        "AEM Components",
+        "CSS",
+        "JS",
+        "UI/UX"
+      ]
+    },
+    {
       "company": "DFIN",
       "jobTitle": "Associate Software Engineer",
       "startDate": "April 2024",
-      "finishDate": "Current",
+      "finishDate": "July 2024",
       "description": "Providing support for custom asset management for financial reporting with CSS specific to print/PDF, troubleshooting specific tasks which require print specific solutions. Introducing better working practices and process flows for developers. Introducing shared knowledge.",
       "break": false,
       "tags":[
