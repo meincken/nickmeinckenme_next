@@ -124,7 +124,7 @@
       "startDate": "Dec 2019",
       "finishDate": "Feb 2020",
       "description": "Grundfos is a globally recognised company which develops water solutions around the world. Building components for AEM in standard HTM in Sightly but also utilising a custom VueJS front end design system using BEM Atomic Design principles.",
-      "break": false,
+      "break": true,
       "tags":[
         "AEM",
         "VueJS",
@@ -143,7 +143,7 @@
       "startDate": "Nov 2019",
       "finishDate": "Dec 2019",
       "description": "Front end developer role with minimal back end skills for Shopify. Building online shopping portal for a luxury brand.",
-      "break": true,
+      "break": false,
       "tags": [
         "Shopify",
         "Liquid",
