@@ -7,6 +7,11 @@
 
 module.exports = {
   reactStrictMode: true,
+  experimental: {
+    turbopack: {
+      root: __dirname,
+    },
+  },
   webpack: (cfg) => {
     cfg.module.rules.push(
       {
