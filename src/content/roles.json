@@ -4,7 +4,7 @@
     {
       "company": "Tesco Mobile",
       "jobTitle": "AEM Frontend Developer",
-      "startDate": "July 2024",
+      "startDate": "August 2024",
       "finishDate": "Present",
       "description": "Rebuilding the front end from a performance point of view, moving away from the composite solution to components. Using best practices and migrating away from older poor performing third party plugins. Moving and upgrading the current AEM build to be AEMaaCS ready. Building robust and compostible structure that is easy to integrate into the current architecture.",
       "break": false,
